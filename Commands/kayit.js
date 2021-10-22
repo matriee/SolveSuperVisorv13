@@ -52,7 +52,7 @@ module.exports = {
 
 
             const femaleBtn = new MessageButton()
-            .setID("FEMALE")
+            .setCustomId("FEMALE")
             .setLabel("Kadın")
             .setSytle("DANGER") // Renklerin düzgün olması için "DANGER" yaptım. Yoksa kadınlarla bir alıp veremediğim yok :p
 
@@ -70,7 +70,7 @@ module.exports = {
             }
 
             collector.on("collect", async (button) => {
-                if(button.id == "MALE"){
+                if(button.customId == "MALE"){
                     await db.add(`ye_kayit_${message.author.id}`, 1);
                     await db.add(`yt_kayit_${message.author.id}`, 1);
                     await member.setNickname(`${Settings.Registery.Tag} ${isim} | ${yas}`)
@@ -78,7 +78,7 @@ module.exports = {
                     await button.think(true)
                     await button.reply.edit(maleEmbed)
                 }
-                if(button.id == "FEMALE"){
+                if(button.customId == "FEMALE"){
                     await db.add(`yk_kayit_${message.author.id}`, 1);
                     await db.add(`yt_kayit_${message.author.id}`, 1);
                     await member.setNickname(`${Settings.Registery.Tag} ${isim} | ${yas}`)
