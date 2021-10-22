@@ -1,0 +1,20 @@
+{
+  "name": "Saldiray Djs v13",
+  "version": "3.0.0",
+  "description": "Discord JS V13 Clear Infrastructure",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+   "node": "16.6.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "fs": "^0.0.2",
+    "discord.js": "^13.0.1"
+  }
+}

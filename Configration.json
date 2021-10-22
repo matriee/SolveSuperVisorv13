@@ -1,0 +1,20 @@
+{
+
+    "GuildName": "",
+
+    "Registery":{
+        "RegisterStaff": [""],
+        "Man":[""],
+        "Woman": [""],
+        "Tag": ""
+    },
+
+    "Moderation":{
+        "Mute": "",
+        "Jail": "",
+
+        "MuteStaff": "",
+        "JailStaff": "",
+        "BanStaff": ""
+    }
+}
