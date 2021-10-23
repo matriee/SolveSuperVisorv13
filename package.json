@@ -1,7 +1,7 @@
 {
-  "name": "Saldiray Djs v13",
+  "name": "SolveBeySuperVizor",
   "version": "3.0.0",
-  "description": "Discord JS V13 Clear Infrastructure",
+  "description": "SolvebeySupreVizorv13",
   "main": "index.js",
   "scripts": {
     "start": "node ."
