@@ -8,7 +8,7 @@
 
 ## Bot İşlemleri
 
- Ardından botu aktif etmek için indirdiğiniz botun ZIP'inden çıkartın. Çıkarma işlemi için [WinRAR](https://www.win-rar.com/start.html?&L=5) önerilir fakat istediğiniz programlarla çıkarma işlemini yapabilirsiniz.
+ Botu aktif etmek için indirdiğiniz botun ZIP'inden çıkartın. Çıkarma işlemi için [WinRAR](https://www.win-rar.com/start.html?&L=5) önerilir fakat istediğiniz programlarla çıkarma işlemini yapabilirsiniz.
 
  Çıkarma işlemi sonrası botun klasörüne sağ tıklayıp ya Command Prompt (Komut Penceresi) ya da Powershell'i açın.
 
